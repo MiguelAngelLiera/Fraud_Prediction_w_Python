@@ -4,11 +4,11 @@
 Ejercicio para predicción de fraude, contempla el proceso de exploración de datos, el pre-procesamiento, el analisis de modelos de clasificación 
 
 ## Updates
-- [15/08/2024] The very first version of the investigation has been uploaded to this public repo!
+- [15/08/2024] The very first version has been uploaded to this public repo!
 
 ## Detailed Description
-I focused in two kinds of models, with or without signal decomposition using the data wavelet transform. Also, the core NNs architectures used on it were:
-| without DWT      |                              with DWT                          |                              Network                          |
+I focused in classification models:
+<!--| without DWT      |                              with DWT                          |                              Network                          |
 | ------------- | -------------------------------------------------------| -------------------------------------------------------| 
 | [NARNN](https://github.com/MiguelAngelLiera/NN-Stock-Exchange-Pc-/blob/main/NARNN.ipynb) | [DWT_NARNN](https://github.com/MiguelAngelLiera/NN-Stock-Exchange-Pc-/blob/main/DWT_NARNN.ipynb)     | Not Linear Auto-regressive NN (NARNN)                   |
 | [LSTMNN](https://github.com/MiguelAngelLiera/NN-Stock-Exchange-Pc-/blob/main/NARNN.ipynb) | [DWT_LSTMNN](https://github.com/MiguelAngelLiera/NN-Stock-Exchange-Pc-/blob/main/DWT_NARNN.ipynb)     | Long Short-Term Memory NN (LSTMNN)   | 
@@ -18,10 +18,10 @@ On these notebooks we can find the data-preprocesing, prediction and evaluation 
 
 ## Data Wavelet Transform (DWT)
 
-The DWT is the discretization of the Continous Wavelet Transform (CWT) that is an advanced technique in signal procesing that decompose data and functions in their frecuency coefficents. It depend on to variables, the frecuency and translation over time, doing a frecuencial and temporal analysis over the signal.
+The DWT is the discretization of the Continous Wavelet Transform (CWT) that is an advanced technique in signal procesing that decompose data and functions in their frecuency coefficents. It depend on to variables, the frecuency and translation over time, doing a frecuencial and temporal analysis over the signal.-->
 
 <!---![image](imagenes/ACTINVRB_DWT_lvl1_5.png)-->
-<p align="center">
+<!--<p align="center">
   <img src="imagenes/ACTINVRB_DWT_lvl1_5.png" alt="NARNN Architecture" height="600" style="vertical-align:top; margin:4px">
 </p>
 Five level decomposition of a time series (ACTINVRB)
@@ -42,4 +42,4 @@ They are an especific NN's architecture that consist in predicting future values
 They are an especific NN's architecture that consist in predicting future values starting with the past *d* values as an input.
 <p align="center">
   <img src="imagenes/GRUnn_arquitectura.png" alt="NARNN Architecture" height="400" style="vertical-align:top; margin:4px">
-</p>
+</p>-->
